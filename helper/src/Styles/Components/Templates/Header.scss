@@ -1,0 +1,85 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 5px;
+	flex-wrap: wrap;
+	background-color: #00afdb;
+	.header h1 a {
+		font-family: "Inspiration", cursive;
+		font-size: 1.3em;
+		@media screen and (max-width: 768px) {
+			font-size: 0.8em;
+		}
+	}
+
+	.DesktopNav {
+		display: flex;
+		justify-content: space-evenly;
+		a {
+			margin: 5px 20px;
+		}
+	}
+	button {
+		color: royalblue;
+		background: rgb(5, 0, 80);
+		border-radius: 5px;
+		padding: 5px 20px;
+	}
+	.user {
+		background-color: aqua;
+		padding: 5px 10px;
+		border-radius: 5px;
+		position: relative;
+		cursor: pointer;
+		.name {
+			color: #130f40;
+		}
+		.options {
+			width: 100%;
+			position: absolute;
+			margin-left: -10px;
+			background: aqua;
+			border-radius: 10px;
+			a {
+                display: block;
+				padding: 5px 10px;
+				color: #4834d4;
+			}
+			a:hover {
+				background-color: aquamarine;
+			}
+		}
+	}
+	.MobileNav {
+		background-color: white;
+		width: 100vw;
+		height: 100vh;
+		position: fixed;
+		z-index: 10000;
+		top: 0;
+		left: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		display: none;
+		a {
+            width: 100%;
+			padding: 10px 20px;
+			color: black;
+            text-align: center;
+		}
+        a:hover{
+            background: coral;
+        }
+        svg{
+            fill: black;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+
+        }
+	}
+}

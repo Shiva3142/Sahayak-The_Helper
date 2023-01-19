@@ -1,0 +1,36 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	color: white;
+	list-style: none;
+	text-decoration: none;
+	transition: all 0.3 cubic-bezier(0.23, 1, 0.32, 1);
+	word-wrap: break-word;
+}
+
+button,
+span,
+a,
+li,
+label,
+svg,
+i,
+img{
+	cursor: pointer;
+}
+
+hr {
+	width: 98%;
+	border: 1px solid white;
+	margin: 10px auto;
+}
+
+body {
+	background: url("./Assets/Images/Templates/Background.jpg");
+	background-size: cover;
+}

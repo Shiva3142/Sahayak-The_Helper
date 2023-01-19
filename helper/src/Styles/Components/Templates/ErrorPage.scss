@@ -1,0 +1,42 @@
+.ErrorPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    background-color: white;
+    max-width: 900px;
+    margin: 50px auto;
+    img{
+        max-width: 500px;
+    }
+    div{
+        margin: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1.5em;
+        font-size: 2.5em;
+        span{
+            color: coral;
+        }
+        a{
+            background-color: aqua;
+            padding: 10px 50px;
+            border-radius: 5px;
+            color: royalblue;
+            margin: 30px ;
+        }
+    }
+    @media screen and (max-width:500px) {
+        img{
+            max-width: 200px;
+        }
+        div{
+            font-size: 1em;
+        }
+    }
+}
+
+

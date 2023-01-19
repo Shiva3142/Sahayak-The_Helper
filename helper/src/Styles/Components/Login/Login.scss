@@ -1,0 +1,42 @@
+#loginPageContainer {
+	.loginFormContainer {
+		min-height: 60vh;
+		margin: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+#Login_Form {
+	background: white;
+	min-height: 550px;
+	min-width: 400px;
+	@media screen and (max-width: 768px) {
+		min-width: 300px;
+	}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid #006266;
+	h1 {
+		color: royalblue;
+		margin: 20px;
+	}
+	input {
+		margin: 10px;
+		font-size: 15px;
+		padding: 10px;
+		width: 300px;
+		background-color: transparent;
+		border-bottom: 1px solid black;
+		color: black;
+	}
+	> button {
+		font-size: 25px;
+		padding: 5px 50px;
+		background-color: #006266;
+		border-radius: 10px;
+		margin: 20px;
+	}
+}
